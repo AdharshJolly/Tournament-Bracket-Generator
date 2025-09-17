@@ -1,0 +1,96 @@
+# Compiled Object Files
+*.o
+*.obj
+
+# Executable Files
+*.exe
+*.out
+*.app
+
+# IDE Files (Dev-C++)
+*.dev
+*.layout
+
+# Log Files
+*.log
+tournament_log.txt
+
+# Temporary Files
+*.tmp
+*.temp
+*~
+
+# Debug Files
+*.pdb
+*.ilk
+
+# System Files (Windows)
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# System Files (macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# System Files (Linux)
+*~
+.nfs*
+
+# Build Directories
+build/
+bin/
+obj/
+debug/
+release/
+
+# Backup Files
+*.bak
+*.backup
+
+# Core Dumps
+core
+core.*
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.bsc
+*.sbr
+*.dll
+*.lib
+*.exp
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+
+# Eclipse CDT
+.metadata
+.project
+.cproject
+.settings/
+
+# Tournament-specific output files that might be generated
+bracket.txt
