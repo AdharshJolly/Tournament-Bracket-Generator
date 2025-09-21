@@ -7,13 +7,14 @@
 *.out
 *.app
 
-# IDE Files (Dev-C++)
-*.dev
+# IDE Files (Dev-C++) - Keep project files, ignore layout
 *.layout
+# Note: .dev files are project files and should be committed
 
 # Log Files
 *.log
 tournament_log.txt
+bracket.txt
 
 # Temporary Files
 *.tmp
@@ -53,12 +54,11 @@ release/
 core
 core.*
 
-# CMake
+# CMake (Generated makefiles - keep custom ones)
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
-*.cmake
+# Note: Makefile.win is a custom project file and should be committed
 
 # Visual Studio
 *.vcxproj
@@ -93,4 +93,5 @@ Makefile
 .settings/
 
 # Tournament-specific output files that might be generated
-bracket.txt
+# Note: Remove bracket.txt from ignore if you want to commit sample output
+# bracket.txt
